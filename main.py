@@ -1,3 +1,5 @@
+# 2020/07/02
+
 import pandas as pd
 from datetime import timedelta, datetime
 import math
@@ -93,7 +95,6 @@ def find_best_pdq(train_data):
         except:
             continue
 
-
 # Plotting
 
 sns.set_style('darkgrid')
@@ -107,8 +108,3 @@ sns.pairplot(df1)
 
 plt.tight_layout()
 plt.show()
-
-
-# 2020/07/02
-# do nice graph for linkedin
-
